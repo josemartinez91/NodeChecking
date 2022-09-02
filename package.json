@@ -1,0 +1,21 @@
+{
+  "name": "task1checking",
+  "version": "1.0.0",
+  "description": "First task of node and express",
+  "main": "app.js",
+  "scripts": {
+    
+    "start": "nodemon server.js"
+  },
+  "author": "Jose martinez",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4"
+  }
+}
